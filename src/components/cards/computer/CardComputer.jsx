@@ -4,7 +4,7 @@ import styles from "../card.module.css"
 const CardComputer = ({computer, more}) => {
     return(
         <div className={styles.card}>
-            <img src = {`../src/assets/__mocks__/${computer.image}`} alt = "" />
+            <img src = {`../nexus-tech-react/src/assets/__mocks__/${computer.image}`} alt = "" />
             <div className={styles.title}>
                 <h2>{computer.name}</h2>
                 <p>{computer.price}</p>

@@ -20,7 +20,7 @@ const InputPC = ({setModal}) => {
 
     return(
         <div className={styles.main} onSubmit={createPC}>
-            <img src = {"../src/assets/__mocks__/workstation.png"} alt = ""/>
+            <img src = {"../nexus-tech-react/src/assets/__mocks__/workstation.png"} alt = ""/>
             <form className={styles.create}>
                 <input type = "text" id = "name" required minLength={"4"} maxLength={"16"} autoComplete="off" value={value} onChange={(e) => setValue(e.target.value)}/>
                 

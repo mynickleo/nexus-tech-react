@@ -53,7 +53,7 @@ const Profile = () => {
                     <button className={styles.button} onClick={logOut}>Log out</button>
 
                     <section className={styles.profile}>
-                        <img src = {`../src/assets/__mocks__/${user.img}`} alt = ""/>
+                        <img src = {`../nexus-tech-react/src/assets/__mocks__/${user.img}`} alt = ""/>
                         <div className={styles.text}>
                             <p>Name: {user.name}</p>
                             <p>Surname: {user.surname}</p>
