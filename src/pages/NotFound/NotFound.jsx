@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import styles from "./NotFound.module.css"
-import "../../assets/__mocks__/terminal.png"
+import terminal from "../../assets/terminal.png"
 
 const NotFound = () => {
     return(
         <div className={styles.main}>
             <section className={styles.info}>
-                <img src = {"../nexus-tech-react/src/assets/terminal.png"}/>
+                <img src = {terminal}/>
                 <div className={styles.text}>
                     <p>404 Page not found</p>
                 </div>

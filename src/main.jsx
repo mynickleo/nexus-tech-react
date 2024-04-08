@@ -4,7 +4,6 @@ import './index.css'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import Router from './pages/Router/Router'
 import AuthProvider from "./providers/AuthProvider"
-import "../src/assets/terminal.png"
 
 const queryClient = new QueryClient({
   defaultOptions: {

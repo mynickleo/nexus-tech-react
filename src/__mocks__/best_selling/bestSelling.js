@@ -1,7 +1,6 @@
 import "../../assets/__mocks__/disk.png"
 import "../../assets/__mocks__/disk2.png"
 import "../../assets/__mocks__/workstation.png"
-import "../../assets/terminal.png"
 
 export const dataBestSelling = [
     {
