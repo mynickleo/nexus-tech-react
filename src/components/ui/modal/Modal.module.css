@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.modal{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blur{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal .dialog{
+    margin-top: 350px;
+
+    z-index: 11;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.modal .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.75);
+
+    padding: 5px;
+    font-family: "Silkscreen", sans-serif;
+
+    margin: 30px;
+}
+
+.button{
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ebebeb;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+
+    font-family: "Silkscreen", sans-serif;
+    font-size: 1.5rem;
+    
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all ease-in-out;
+}

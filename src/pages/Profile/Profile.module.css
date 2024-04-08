@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.main{
+    width: 70%;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    margin-top: 50px;
+}
+
+.main h1{
+    font-size: 3rem;
+    padding: 5px;
+    font-family: "Silkscreen", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+
+    margin: 20px;
+}
+
+.main section{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .profile{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.main .profile img{
+    width: 300px;
+    height: 300px;
+}
+
+.main .profile .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.main .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Silkscreen", sans-serif;
+
+    margin: 20px;
+}
+
+.main .messageText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Silkscreen", sans-serif;
+    padding: 30px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    margin: 10px;
+}
+
+.main .info{
+    padding: 5px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.main .catalog{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.button{
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ebebeb;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+
+    font-family: "Silkscreen", sans-serif;
+    font-size: 1.5rem;
+    
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all ease-in-out;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+
+    margin: 20px;
+    filter: brightness(70%);
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 1;
+
+    color: #fff;
+
+    width: 70%;
+    margin-top: 20px;
+}
+
+.homeContainer section{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeContainer .about h1{
+    font-family: "Silkscreen", sans-serif;
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+}
+
+.homeContainer .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.75);
+
+    font-family: "Silkscreen", sans-serif;
+
+    margin: 30px;
+}
+
+.homeContainer .about .text p{
+    margin: 10px;
+}
+
+.homeContainer .about .button{
+    text-decoration: none;
+    color: #ebebeb;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+
+    font-family: "Silkscreen", sans-serif;
+    font-size: 1.5rem;
+    
+    margin-top: 20px;
+}
+
+.homeContainer .about .button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s all ease-in-out;
+}
+
+.homeContainer .info{
+    padding: 5px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.homeContainer .catalog{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 40px; 
+    justify-content: center; 
+    align-items: center; 
+}
