@@ -41,7 +41,7 @@ const About = () => {
             </section>
 
             <section className={styles.info}>
-                <img src = {"../nexus-tech-react/src/assets/__mocks__/disk.png"} alt = "" />
+                <img src = {"../src/assets/__mocks__/disk.png"} alt = "" />
                 <div className={styles.text}>
                     <p>■ This is a website about PC store made with React.js</p>
                     <p>■ Made by full-stack developer - mynickleo</p>

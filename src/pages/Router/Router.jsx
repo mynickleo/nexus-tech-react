@@ -13,7 +13,7 @@ import Profile from "../Profile/Profile"
 
 const Router = () => {
     return(
-        <BrowserRouter basename="/nexus-tech-react">
+        <BrowserRouter>
             <Header />
             <Blur />
             <Routes>
