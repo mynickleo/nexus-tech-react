@@ -79,3 +79,17 @@
     justify-content: center; 
     align-items: center; 
 }
+
+@media (max-width: 855px) {
+    .homeContainer .about h1{
+        font-size: 2rem;
+    }
+
+    .homeContainer section{
+        margin: 10px;
+    }
+
+    .homeContainer .text{
+        font-size: 1.25rem;
+    }
+}

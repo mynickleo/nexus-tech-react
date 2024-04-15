@@ -9,6 +9,7 @@
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -16,6 +17,16 @@
     width: 100%;
 
     color: #ebebeb;
+}
+
+.header h1{
+    font-family: "Silkscreen", sans-serif;
+}
+
+.header .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .header .link{
@@ -46,4 +57,49 @@
 
 .header .link:hover::before {
     transform: scaleX(1);
+}
+
+@media (max-width: 855px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header h1{
+        font-size: 1.5rem;
+    }
+
+    .header .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .link{
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 856px) and (max-width: 1200px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .header h1{
+        font-size: 1.5rem;
+    }
+
+    .header .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .link{
+        font-size: 1.1rem;
+    }
 }

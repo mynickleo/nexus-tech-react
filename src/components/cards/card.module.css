@@ -106,3 +106,10 @@
 
     padding: 10px 20px;
 }
+
+@media (max-width: 855px) {
+    .card{
+        padding: 10px;
+        margin: 0px;
+    }
+}

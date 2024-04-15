@@ -34,7 +34,7 @@ const Login = () => {
             <div className={styles.block}>
                 <label>Password:</label>
                 <input 
-                    type="text" 
+                    type="password" 
                     id="password" 
                     name="password"
                     required

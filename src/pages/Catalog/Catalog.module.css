@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     color: #fff;
 
@@ -87,4 +88,14 @@
 .button:hover{
     background-color: rgba(255, 255, 255, 0.5);
     transition: 0.3s all ease-in-out;
+}
+
+@media (max-width: 855px) {
+    .main h1{
+        font-size: 2rem;
+    }
+
+    .main .text{
+        font-size: 1.25rem;
+    }
 }

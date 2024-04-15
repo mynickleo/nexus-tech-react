@@ -1,11 +1,9 @@
-import "../../assets/__mocks__/disk.png"
-import "../../assets/__mocks__/disk2.png"
-import "../../assets/__mocks__/workstation.png"
+import disk from "../../assets/__mocks__/disk.png"
 
 export const dataBestSelling = [
     {
         id : "1fbch",
-        image : "disk.png",
+        image : disk,
         name : "SSD 240 gb",
         price : "30 $",
         description : "The most efficient and fastest",
@@ -13,7 +11,7 @@ export const dataBestSelling = [
     },
     {
         id : "7asghd",
-        image : "disk.png",
+        image : disk,
         name : "AMD Ryzen 5",
         price : "290 $",
         description : "The most efficient and fastest",
@@ -21,7 +19,7 @@ export const dataBestSelling = [
     },
     {
         id : "123801cb-dja",
-        image : "disk.png",
+        image : disk,
         name : "RAM 16 Gb",
         price : "50 $",
         description : "The most efficient and fastest",

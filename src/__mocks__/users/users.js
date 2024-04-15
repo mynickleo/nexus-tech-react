@@ -1,3 +1,5 @@
+import disk from "../../assets/__mocks__/disk.png"
+
 export const dataUsers = [
     {
         id: "76ddjhud71",
@@ -6,6 +8,6 @@ export const dataUsers = [
         login: "Nexus admin",
         email : "sonnycrockett@gmail.com",
         password: "12345665",
-        img: "disk.png",
+        img: disk,
     }
 ]

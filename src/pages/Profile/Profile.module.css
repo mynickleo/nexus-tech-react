@@ -124,3 +124,35 @@ img{
     margin: 20px;
     filter: brightness(70%);
 }
+
+@media (max-width: 855px) {
+    .main h1{
+        font-size: 2rem;
+    }
+
+    .main .text{
+        font-size: 1.25rem;
+    }
+
+    .main .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main .profile .text{
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+    }
+
+    .main .profile img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main .messageText{
+        font-size: 1.1rem;
+    }
+}

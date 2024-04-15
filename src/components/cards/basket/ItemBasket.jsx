@@ -11,7 +11,7 @@ const ItemBasket = ({data, more, updateBasket}) => {
     }
     return(
         <div className={styles.card}>
-            <img src = {`../src/assets/__mocks__/${data.image}`} alt = "" />
+            <img src = {data.image} alt = "" />
             <div className={styles.title}>
                 <h2>{data.name}</h2>
                 <p>{data.price}</p>

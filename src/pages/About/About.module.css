@@ -120,3 +120,17 @@ img{
     margin: 20px;
     filter: brightness(70%);
 }
+
+@media (max-width: 855px) {
+    .main h1{
+        font-size: 2rem;
+    }
+
+    .main .text{
+        font-size: 1.25rem;
+    }
+
+    .main .messageText{
+        font-size: 1.2rem;
+    }
+}

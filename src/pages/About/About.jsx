@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./About.module.css";
-import { Link } from "react-router-dom";
+import disk from "../../assets/__mocks__/disk.png";
 
 const About = () => {
     const [headerText, setHeaderText] = useState("...");
@@ -41,7 +41,7 @@ const About = () => {
             </section>
 
             <section className={styles.info}>
-                <img src = {"../src/assets/__mocks__/disk.png"} alt = "" />
+                <img src = {disk} alt = "" />
                 <div className={styles.text}>
                     <p>■ This is a website about PC store made with React.js</p>
                     <p>■ Made by full-stack developer - mynickleo</p>

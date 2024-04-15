@@ -1,7 +1,10 @@
+import disk from "../../assets/__mocks__/disk.png"
+import disk2 from "../../assets/__mocks__/disk2.png"
+
 export const dataSelling = [
     {
         id : "1fbch",
-        image : "disk.png",
+        image : disk,
         name : "SSD 240 gb",
         price : "30 $",
         description : "The most efficient and fastest",
@@ -9,7 +12,7 @@ export const dataSelling = [
     },
     {
         id : "7asghd",
-        image : "disk.png",
+        image : disk,
         name : "AMD Ryzen 5",
         price : "290 $",
         description : "The most efficient and fastest",
@@ -17,7 +20,7 @@ export const dataSelling = [
     },
     {
         id : "123801cb-dja",
-        image : "disk.png",
+        image : disk,
         name : "RAM 16 Gb",
         price : "50 $",
         description : "The most efficient and fastest",
@@ -25,7 +28,7 @@ export const dataSelling = [
     },
     {
         id: "pqkcjtl-7sn-910s-v",
-        image: "disk2.png",
+        image: disk2,
         name : "Power Supply 750W",
         price: "100 $",
         description: "The best power and quality",
@@ -33,7 +36,7 @@ export const dataSelling = [
     },
     {
         id: "75cfb692e8a3",
-        image: "disk2.png",
+        image: disk2,
         name : "Intel Core i9",
         price: "500 $",
         description: "The most powerful processor for complex tasks",
@@ -41,7 +44,7 @@ export const dataSelling = [
     },
     {
         id: "d0e9875f3721",
-        image: "disk2.png",
+        image: disk2,
         name : "Nvidia RTX 3060Ti",
         price: "550 $",
         description: "Exciting gaming is provided",

@@ -1,7 +1,9 @@
+import workstation from "../../assets/__mocks__/workstation.png"
+
 export const dataWorkstations = [
     {
         id: "1",
-        image: "workstation.png",
+        image: workstation,
         name: "R Gaming Max",
         price: "1000 $",
         cpu: "Intel Core i5",
@@ -14,7 +16,7 @@ export const dataWorkstations = [
     },
     {
         id: "2",
-        image: "workstation.png",
+        image: workstation,
         name: "Stronger X",
         price: "1500 $",
         cpu: "AMD Ryzen 5",
@@ -27,7 +29,7 @@ export const dataWorkstations = [
     },
     {
         id: "3",
-        image: "workstation.png",
+        image: workstation,
         name: "Space Gaming",
         price: "2500 $",
         cpu: "Intel Core i9",
